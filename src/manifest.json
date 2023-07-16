@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "free-d4tac4mp",
+  "version": "1.0",
+  "description": "Datacamp Paywall bypassing",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.datacamp.com/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
