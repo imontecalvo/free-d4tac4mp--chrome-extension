@@ -10,9 +10,6 @@
     "tabs",
     "activeTab"
   ],
-  "background": {
-    "service_worker": "background.js"
-  },
   "content_scripts": [
     {
       "matches": ["*://*.datacamp.com/*"],
