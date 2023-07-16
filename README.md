@@ -2,4 +2,4 @@
 
 bypassing datacamp paywall automatically :p
 
-![img](https://i.imgur.com/Gitdre3.gifv)
+![img](https://i.imgur.com/Gitdre3.gif)
