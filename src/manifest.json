@@ -12,7 +12,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["*://*.datacamp.com/*"],
+      "matches": ["*://*.datacamp.com/courses/*"],
       "js": ["script.js"]
     }
   ],
